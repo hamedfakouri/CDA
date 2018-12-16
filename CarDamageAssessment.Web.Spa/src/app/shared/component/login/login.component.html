@@ -1,0 +1,4 @@
+
+
+<a class="navbar-brand text-uppercase" *ngIf='this.authenticated'  (click)="logout()"> <span class="label label-success text-capitalize">خروج</span></a>
+<a class="navbar-brand text-uppercase text-white" *ngIf='!this.authenticated' (click)="login()"> <span class="label label-success text-capitalize ">ورود</span></a>
